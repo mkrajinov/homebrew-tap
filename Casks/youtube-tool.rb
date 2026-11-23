@@ -1,6 +1,6 @@
 cask "youtube-tool" do
-  version "0.3.1"
-  sha256 "2be9ed692555083426399b874a6107ab1a735f2bb4d0d5b91ad2f67e1d595adf"
+  version "0.3.2"
+  sha256 "68aeee3265cbf72eb4f2f6c345aea020080903c46abd3d301812abf47f7e3579"
 
   url "https://github.com/mkrajinov/youtube-tool/releases/download/v#{version}/YouTubeTool-#{version}.zip"
   name "YouTube Tool"
