@@ -5,12 +5,12 @@
 class Fritzbox < Formula
   desc "CLI and TUI to manage AVM FRITZ!Box routers"
   homepage "https://github.com/mkrajinov/fritzbox"
-  version "0.3.0"
+  version "0.3.1"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/mkrajinov/fritzbox/releases/download/v0.3.0/fritzbox_0.3.0_darwin_amd64.tar.gz"
-      sha256 "22297bce6fbd3930c2806f41ec62073c2a1215ea3b6d6a06cb3b107256b7f043"
+      url "https://github.com/mkrajinov/fritzbox/releases/download/v0.3.1/fritzbox_0.3.1_darwin_amd64.tar.gz"
+      sha256 "64e256c1a9aff42855dce8b8f1eec4182b750354c73c7855433104a6b89918ba"
 
       define_method(:install) do
         bin.install "fritzbox"
@@ -22,8 +22,8 @@ class Fritzbox < Formula
       end
     end
     if Hardware::CPU.arm?
-      url "https://github.com/mkrajinov/fritzbox/releases/download/v0.3.0/fritzbox_0.3.0_darwin_arm64.tar.gz"
-      sha256 "70301062e85411f069cc1631b6483009951fd3eeb956644ce291cbf33b5d1562"
+      url "https://github.com/mkrajinov/fritzbox/releases/download/v0.3.1/fritzbox_0.3.1_darwin_arm64.tar.gz"
+      sha256 "c09b7d17608bf4b12ce6240b2139c92a7c15a252e72a8e9ef420188de6b6bf71"
 
       define_method(:install) do
         bin.install "fritzbox"
@@ -38,8 +38,8 @@ class Fritzbox < Formula
 
   on_linux do
     if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
-      url "https://github.com/mkrajinov/fritzbox/releases/download/v0.3.0/fritzbox_0.3.0_linux_amd64.tar.gz"
-      sha256 "f882b1ca753d4c8adc3f779cb9c2fcb3d9616f41f5437343ac0f930b9e5a0d3d"
+      url "https://github.com/mkrajinov/fritzbox/releases/download/v0.3.1/fritzbox_0.3.1_linux_amd64.tar.gz"
+      sha256 "57cbdde2cb61e265561a1049654c4990a594ac316417ec38572331ab6adadbec"
       define_method(:install) do
         bin.install "fritzbox"
         bin.install_symlink "fritzbox" => "fb"
@@ -50,8 +50,8 @@ class Fritzbox < Formula
       end
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/mkrajinov/fritzbox/releases/download/v0.3.0/fritzbox_0.3.0_linux_arm64.tar.gz"
-      sha256 "943b32ac7b12aa1f7bf57d8dae51cc8a1a872309c9f1b190bdefda0362ecca40"
+      url "https://github.com/mkrajinov/fritzbox/releases/download/v0.3.1/fritzbox_0.3.1_linux_arm64.tar.gz"
+      sha256 "8ef7522d027c984e8cefec8e09105724dd7161455f174a5d393fbe39dae67832"
       define_method(:install) do
         bin.install "fritzbox"
         bin.install_symlink "fritzbox" => "fb"
