@@ -10,22 +10,22 @@ class Rtop < Formula
   on_macos do
     on_arm do
       url "https://github.com/mkrajinov/rtop/releases/download/v0.2.0/rtop_0.2.0_darwin_arm64.tar.gz"
-      sha256 "f4437251b6cd8401e28b5660f1f48fe49eb610f95103c8955aa120f6c1e54016"
+      sha256 "3d300b3c757eecb9623d7180f23b926c7a087e4c3841284c628c6fbf419122fa"
     end
     on_intel do
       url "https://github.com/mkrajinov/rtop/releases/download/v0.2.0/rtop_0.2.0_darwin_amd64.tar.gz"
-      sha256 "1813f94d7b490accd398a68503a48b1e1b9e122c3572f68dcc168a24893ca0a3"
+      sha256 "9fa455dab5a175c04bfdb2bcb229a8eb4c6675e35f26974690b9f7db6fe65f8a"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/mkrajinov/rtop/releases/download/v0.2.0/rtop_0.2.0_linux_arm64.tar.gz"
-      sha256 "d1bfc28c885ef48d19d209323a3eafc174de367326216657900440b798147a38"
+      sha256 "2ad9c54be3c5d06b5dbf079c3f2c71e59cba2b3fa96844d45d48480c18a064b0"
     end
     on_intel do
       url "https://github.com/mkrajinov/rtop/releases/download/v0.2.0/rtop_0.2.0_linux_amd64.tar.gz"
-      sha256 "5cf4ae7b60ea5965c49f3aa77aa2006305dacc07fe197c0babeb07a8ba42cb9e"
+      sha256 "90973d1eb302362e6cb0ad4d687e633bbe94b4e02eb8d4d958b4b405b9d31dbc"
     end
   end
 
